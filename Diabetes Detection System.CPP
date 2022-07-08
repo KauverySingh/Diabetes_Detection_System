@@ -73,7 +73,6 @@ void diabetes::welcome_screen()
 	   textcolor(YELLOW);
 	   cputs("********* W E L C O M E ********* " );
 	   gotoxy(25,9);
-	  // cputs(" C A M P I O N   S C H O O L "  );
 	   gotoxy(18,12);
 	   cputs(" M E D I C A L   D I A G N O S I S   S O F T W A R E  ");
 	   textcolor(GREEN+BLINK);
@@ -333,12 +332,12 @@ char diabetes::display_message(int n,int m)
 			       getch();
 			       break;
  
-		      //	   default: break;
+		      // default: break;
  
 		 }
  
 	      // break ;
-	       //	default : break;
+	       // default : break;
 	       }
 	       return (ch);
 	     }
@@ -432,5 +431,3 @@ void diabetes::getlevel3_symptoms()
 		 ++k;
 		 return;
 	}
- 
-
